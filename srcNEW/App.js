@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Row, Col} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 
 function App() {
   return (
-    <Row className="App">
-      <Col>1st Col</Col>
-      <Col>2nd Col</Col>
+    <div className="App">
+      <Button> ITS a BOOTSTRAP BUTTON </Button>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -22,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </Row>
+    </div>
   );
 }
 

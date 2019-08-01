@@ -1,0 +1,10 @@
+.mainContainer {
+    /* text-align: center; */
+    margin-top: 20px;
+    
+}
+
+.MainBody {
+    background: linear-gradient(skyblue, white);
+    height: 100vh;
+}
